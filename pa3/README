@@ -1,0 +1,22 @@
+README for pa3
+
+C. Yongshi Sun, February 18, 2019
+==================================
+source files: Makefile, Dictionary.java, DictionaryTest.java, DictionaryClient.java, DictionaryInterface.java, DuplicateKeyException.java, KeyNotFoundException.java
+
+Other files: Dictionary.class, DictionaryTest.class, DictionaryClient.class, DictionaryClient, DictionaryInterface.class, DuplicateKeyException.class, KeyNotFoundException.class
+=================================
+
+pa3 includes a file called Dictionary.java which is a Linked List implementation of the Dictionary ADT
+
+Instruction to run pa3
+-------------------------------
+
+1) type "make"
+
+2) then type "DictionaryClient"
+
+===========================================                                                                             
+which option for storing pairs in node class: 
+The first (simpler and recommended) option where you define your Node
+class to contain two String fields instead of a single data field.

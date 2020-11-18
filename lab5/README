@@ -1,0 +1,22 @@
+README for lab5
+
+C. Yongshi Sun, February 24, 2019
+==================================
+source files: Makefile, Dictionary.c, DictionaryTest.c, DictionaryClient.c, Dictionary.h
+
+Other files: Dictionary.class, DictionaryTest.class, DictionaryClient.class, DictionaryClient, DictionaryInterface.class,
+=================================
+
+lab5 includes a file called Dictionary.c which is a Linked List implementation of the Dictionary ADT
+
+Instruction to run lab5
+-------------------------------
+
+1) type "make"
+
+2) then type "DictionaryClient"
+
+===========================================                                                                             
+which option for storing pairs in node class: 
+The first (simpler and recommended) option where you define your Node
+class to contain two String fields instead of a single data field.

@@ -1,0 +1,19 @@
+README for pa5
+
+C. Yongshi Sun, March 15, 2019
+==================================
+source files: Makefile, Dictionary.c, DictionaryTest.c, DictionaryClient.c, Dictionary.h
+
+Other files: Dictionary.class, DictionaryTest.class, DictionaryClient.class, DictionaryClient, DictionaryInterface.class,
+=================================
+
+lab5 includes a file called Dictionary.c which is a hash table implementation of the Dictionary ADT
+
+Instruction to run pa5
+-------------------------------
+
+1) type "make"
+
+2) then type "./DictionaryClient"
+
+===========================================            

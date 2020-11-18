@@ -1,0 +1,19 @@
+README for pa1
+
+C. Yongshi Sun, April 12, 2019
+==================================
+source files: Makefile, README, Subset.java
+
+Other files: Subset.class
+=================================
+
+pa1 includes a file called Subset.java which prints out all the subsets of k belonging to a set with n numbers
+
+Instruction to run pa1
+-------------------------------
+
+1) type "make"
+
+2) then type "java Subset < int n > < int k> "
+
+===========================================           

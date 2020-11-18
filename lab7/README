@@ -1,0 +1,19 @@
+README for lab7
+
+C. Yongshi Sun, March 13, 2019
+==================================
+source files: Makefile, Dictionary.java, DictionaryClient.java, DictionaryInterface.java, DictionaryTest.java
+
+Other files: Dictionary.class, DictionaryClient.class, DictionaryClient, DictionaryInterface.class, 
+=================================
+
+lab5 includes a file called Dictionary.java which is a Linked List implementation of the Dictionary ADT
+
+Instruction to run lab7
+-------------------------------
+
+1) type "make"
+
+2) then type "DictionaryClient"
+
+===========================================                                                                             

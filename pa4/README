@@ -1,0 +1,21 @@
+README for pa4
+
+C. Yongshi Sun, March 5, 2019
+==================================
+source files: Makefile, Queue.java, QueueTest.java, DictionaryInterface.java, Job.java, QueueEmptyException.java, Simulation.java
+
+Other files: Queue.class, QueueTest.class, DictionaryInterface.class, Job.class, QueueEmptyException.class, Simulation.class
+=================================
+
+pa4 includes a file called Queue.java which is a Linked List implementation of the Queue ADT
+
+Instruction to run pa4
+-------------------------------
+
+1) type "make"
+
+2) then type "Simulation <input_file>" 
+
+===========================================                                                                             
+submit cmps012b-pt.w19 pa4 Simulation.java QueueTest.java Queue.java Job.java QueueEmptyException.java QueueInterface.java Makefile README
+submit cmps012b-pt.w19 lab7 DictionaryClient.java DuplicateKeyException.java Dictionary.java KeyNotFoundException.java DictionaryInterface.java Makefile README

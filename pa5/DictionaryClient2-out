@@ -1,0 +1,59 @@
+line 53:	       key = &keyBuffer[keyBufferOffset];
+line 36:	       value = &valBuffer[valBufferOffset];
+line 18:	    char* value;
+line 45:	       key = &keyBuffer[keyBufferOffset];
+line 11:	 #define MAX_LEN 180
+line 28:	    while( fgets(line, MAX_LEN, in)!=NULL ){
+line 55:	       insert(A, key, value);
+line 21:	    int keyBufferOffset = 0, valBufferOffset = 0;
+line 9:	 #include"Dictionary.h"
+line 65:	    free(valBuffer);
+line 47:	       keyBufferOffset = keyBufferLength;
+line 2:	 // DictionaryClient2.c
+line 13:	 int main(int argc, char* argv[]){
+line 40:	       // put label in keyBuffer
+line 57:	       valBufferOffset += (strlen(value) + 1);
+line 23:	    char line[MAX_LEN+1];
+line 50:	    // put keys and values in dictionary A
+line 67:	    fclose(out);
+line 49:	 
+line 33:	       line[lineLength] = '\0';  // overwrite newline '\n' with null '\0'
+line 15:	    FILE* in = fopen("DictionaryClient2.c", "r");
+line 42:	       labelLength = strlen(label);
+line 59:	 
+line 5:	 
+line 25:	    int i, labelLength, lineLength, lineNumber = 0;
+line 52:	    for(i=0; i<lineNumber; i++){
+line 69:	    return(EXIT_SUCCESS);
+line 35:	       valBuffer = realloc(valBuffer, valBufferLength*sizeof(char) );
+line 17:	    char* key;
+line 44:	       keyBuffer = realloc(keyBuffer, keyBufferLength*sizeof(char) );
+line 7:	 #include<stdlib.h>
+line 10:	 
+line 27:	    // read input files
+line 54:	       value = &valBuffer[valBufferOffset];
+line 20:	    char* valBuffer = NULL;
+line 8:	 #include<string.h>
+line 19:	    char* keyBuffer = NULL;
+line 46:	       strcpy(key, label);
+line 1:	 //-----------------------------------------------------------------------------
+line 12:	 
+line 29:	       
+line 56:	       keyBufferOffset += (strlen(key) + 1);
+line 22:	    int keyBufferLength = 0, valBufferLength = 0;
+line 39:	       
+line 66:	    fclose(in);
+line 48:	    }
+line 3:	 // Another test client for the Dictionary ADT
+line 14:	    Dictionary A = newDictionary();
+line 41:	       sprintf(label, "line %d:\t", lineNumber);
+line 58:	    } 
+line 4:	 //-----------------------------------------------------------------------------
+line 24:	    char label[MAX_LEN+1];
+line 51:	    keyBufferOffset = valBufferOffset = 0;
+line 68:	 
+line 34:	       valBufferLength += (lineLength+1);
+line 16:	    FILE* out = fopen("DictionaryClient2-out", "w");
+line 43:	       keyBufferLength += (labelLength+1);
+line 6:	 #include<stdio.h>
+line 26:	    
